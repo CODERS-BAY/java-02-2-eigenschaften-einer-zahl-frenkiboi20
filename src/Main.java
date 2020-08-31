@@ -27,7 +27,7 @@ public class Main {
         } else {
             System.out.println("Leider keine Glückszahl.");
         }
-        if (num > 9 && num < 100) {
+        if (num > 9 && num < 100 || num < -9 && num > -100) {
             System.out.println(num + " ist zweistellig.");
         } else {
             System.out.println(num + " ist nicht zweistellig.");
